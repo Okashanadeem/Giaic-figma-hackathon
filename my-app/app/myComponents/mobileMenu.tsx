@@ -20,8 +20,8 @@ export default function MobileNavbar() {
           <div className="flex flex-col space-y-4 mt-4">
             <Link href="/" className="text-lg font-medium hover:underline">Home</Link>
             <Link href="/shop" className="text-lg font-medium hover:underline">Shop</Link>
-            <Link href="/" className="text-lg font-medium hover:underline">About</Linl>
-            <Link href="/contact" className="text-lg font-medium hover:underline">Contact</Linl>
+            <Link href="/" className="text-lg font-medium hover:underline">About</Link>
+            <Link href="/contact" className="text-lg font-medium hover:underline">Contact</Link>
           </div>
         </SheetContent>
       </Sheet>
