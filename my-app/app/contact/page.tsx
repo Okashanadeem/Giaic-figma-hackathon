@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../myComponents/Navbar';
 import Image from 'next/image';
 import logo from '../../public/images/Meubel House_Logos-05.png';
-import { ChevronRight, Clock, Fullscreen, Grip, MapPin, Phone, SlidersHorizontal } from 'lucide-react';
+import { ChevronRight, Clock, MapPin, Phone } from 'lucide-react';
 import Footer from '../myComponents/footer';
 
 const Page = () => {
