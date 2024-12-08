@@ -8,7 +8,6 @@ import AsgardSofa from "../public/images/Asgaard sofa 1.png";
 import boximg1 from "../public/images/Rectangle 13.png"
 import boximg2 from "../public/images/Rectangle 14.png"
 import boximg3 from "../public/images/Rectangle 15.png"
-import backCover from "../public/images/Rectangle 17.png"
 import { Calendar, Clock } from "lucide-react";
 import Link from "next/link";
 import Footer from "./myComponents/footer";
