@@ -17,10 +17,10 @@ export default function MobileNavbar() {
             <SheetTitle>Menu</SheetTitle>
           </SheetHeader>
           <div className="flex flex-col space-y-4 mt-4">
-            <a href="#home" className="text-lg font-medium hover:underline">Home</a>
-            <a href="#about" className="text-lg font-medium hover:underline">About</a>
-            <a href="#products" className="text-lg font-medium hover:underline">Products</a>
-            <a href="#contact" className="text-lg font-medium hover:underline">Contact</a>
+            <a href="/" className="text-lg font-medium hover:underline">Home</a>
+            <a href="/shop" className="text-lg font-medium hover:underline">Shop</a>
+            <a href="/" className="text-lg font-medium hover:underline">About</a>
+            <a href="/contact" className="text-lg font-medium hover:underline">Contact</a>
           </div>
         </SheetContent>
       </Sheet>
