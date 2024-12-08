@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
+import Link from "next/link";
 
 export default function MobileNavbar() {
   return (
@@ -17,10 +18,10 @@ export default function MobileNavbar() {
             <SheetTitle>Menu</SheetTitle>
           </SheetHeader>
           <div className="flex flex-col space-y-4 mt-4">
-            <a href="/" className="text-lg font-medium hover:underline">Home</a>
-            <a href="/shop" className="text-lg font-medium hover:underline">Shop</a>
-            <a href="/" className="text-lg font-medium hover:underline">About</a>
-            <a href="/contact" className="text-lg font-medium hover:underline">Contact</a>
+            <Link href="/" className="text-lg font-medium hover:underline">Home</Link>
+            <Link href="/shop" className="text-lg font-medium hover:underline">Shop</Link>
+            <Link href="/" className="text-lg font-medium hover:underline">About</Linl>
+            <Link href="/contact" className="text-lg font-medium hover:underline">Contact</Linl>
           </div>
         </SheetContent>
       </Sheet>
